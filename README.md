@@ -24,27 +24,41 @@ The Ember project is a C++ library focused on providing essential data structure
 
 ```
 .
-├── CMakeLists.txt    # CMake build configuration
-├── src               # Source code directory
-│   ├── DataStructures
-│   │   ├── Graphs
-│   │   │   ├── binary_heap.cpp
-│   │   │   ├── binary_heap_node.cpp
-│   │   │   ├── binary_search_tree.cpp
-│   │   │   ├── binary_search_tree_node.cpp
-│   │   │   ├── binary_tree.cpp
-│   │   │   ├── binary_tree_node.cpp
-│   │   │   ├── graph.cpp
-│   │   │   ├── graph_node.cpp
-│   │   │   ├── tree.cpp
-│   │   │   └── tree_node.cpp
-│   ├── emberAPI.hpp
-│   ├── emberCommon.hpp
-│   ├── emberDLL.hpp
-│   ├── emberLIB.hpp
-│   └── types.hpp
-├── CMakeLists.txt    # CMake configuration file
-└── README.md         # Project documentation
+src
+├── DataStructures
+│   ├── Graphs
+│   │   ├── binary_heap.cpp
+│   │   ├── binary_heap.hpp
+│   │   ├── binary_heap_node.cpp
+│   │   ├── binary_heap_node.hpp
+│   │   ├── binary_search_tree.cpp
+│   │   ├── binary_search_tree.hpp
+│   │   ├── binary_search_tree_node.cpp
+│   │   ├── binary_search_tree_node.hpp
+│   │   ├── binary_tree.cpp
+│   │   ├── binary_tree.hpp
+│   │   ├── binary_tree_node.cpp
+│   │   ├── binary_tree_node.hpp
+│   │   ├── graph.cpp
+│   │   ├── graph.hpp
+│   │   ├── graph_node.cpp
+│   │   ├── graph_node.hpp
+│   │   ├── tree.cpp
+│   │   ├── tree.hpp
+│   │   ├── tree_node.cpp
+│   │   └── tree_node.hpp
+│   ├── hash.hpp
+│   ├── lists.hpp
+│   ├── nodes.hpp
+│   ├── queue.hpp
+│   ├── stack.hpp
+│   └── wrappers.hpp
+├── emberAPI.hpp
+├── emberCommon.hpp
+├── emberDLL.hpp
+├── emberLIB.hpp
+└── types.hpp
+
 ```
 
 ## Building the Project
