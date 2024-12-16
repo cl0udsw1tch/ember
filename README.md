@@ -1,9 +1,9 @@
 
-# Ember Project
+# Ember 🔥
 
 ## Overview
 
-The Ember project is a C++ library focused on providing essential data structures for use in graph-related algorithms and other utilities. This library includes data structures like binary trees, search trees, graphs, and more. The project can be built as either a shared (`emberD`) or static (`emberS`) library.
+Ember is a C++ library focused on providing essential data structures for use in graph-related algorithms and other utilities. This library includes data structures like binary trees, search trees, graphs, and more. The project can be built as either a shared (`emberD`) or static (`emberS`) library.
 
 ## Requirements
 
@@ -23,7 +23,6 @@ The Ember project is a C++ library focused on providing essential data structure
 ## Directory Structure
 
 ```
-.
 src
 ├── DataStructures
 │   ├── Graphs
